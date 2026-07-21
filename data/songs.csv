@@ -1,11 +1,19 @@
-id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness
-1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18
-2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71
-3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10
-4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86
-5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05
-6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92
-7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89
-8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22
-9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78
-10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35
+id,title,artist,genre,mood,energy,tempo_bpm,valence,danceability,acousticness,popularity,release_decade,detailed_mood_tag,explicit,vocal_style
+1,Sunrise City,Neon Echo,pop,happy,0.82,118,0.84,0.79,0.18,78,2020s,euphoric,False,vocal
+2,Midnight Coding,LoRoom,lofi,chill,0.42,78,0.56,0.62,0.71,45,2020s,nostalgic,False,instrumental
+3,Storm Runner,Voltline,rock,intense,0.91,152,0.48,0.66,0.10,62,2010s,aggressive,False,vocal
+4,Library Rain,Paper Lanterns,lofi,chill,0.35,72,0.60,0.58,0.86,38,2020s,nostalgic,False,instrumental
+5,Gym Hero,Max Pulse,pop,intense,0.93,132,0.77,0.88,0.05,71,2020s,euphoric,False,vocal
+6,Spacewalk Thoughts,Orbit Bloom,ambient,chill,0.28,60,0.65,0.41,0.92,29,2020s,dreamy,False,instrumental
+7,Coffee Shop Stories,Slow Stereo,jazz,relaxed,0.37,90,0.71,0.54,0.89,33,2000s,nostalgic,False,mixed
+8,Night Drive Loop,Neon Echo,synthwave,moody,0.75,110,0.49,0.73,0.22,55,2010s,melancholic,False,instrumental
+9,Focus Flow,LoRoom,lofi,focused,0.40,80,0.59,0.60,0.78,41,2020s,calm,False,instrumental
+10,Rooftop Lights,Indigo Parade,indie pop,happy,0.76,124,0.81,0.82,0.35,67,2020s,euphoric,False,vocal
+11,Neon Alley,Krystal Drift,synthpop,energetic,0.68,124,0.72,0.75,0.20,58,2020s,euphoric,False,vocal
+12,Desert Bloom,Sable & Wren,folk,nostalgic,0.31,68,0.55,0.40,0.88,26,1990s,nostalgic,False,vocal
+13,Warehouse Riot,Fract Union,techno,intense,0.95,140,0.42,0.85,0.03,60,2010s,aggressive,False,instrumental
+14,Velvet Hush,Moonpath,soul,romantic,0.45,84,0.68,0.55,0.60,49,2000s,romantic,False,vocal
+15,Paper Boats,Wren & Sable,acoustic,melancholic,0.22,64,0.35,0.30,0.94,22,1990s,melancholic,False,vocal
+16,City Pulse,Krystal Drift,hip hop,confident,0.79,96,0.70,0.90,0.12,73,2020s,aggressive,True,vocal
+17,Golden Hour,Halo Static,indie,dreamy,0.50,100,0.75,0.58,0.55,44,2010s,dreamy,False,vocal
+18,Iron Veins,Fract Union,metal,aggressive,0.97,160,0.38,0.60,0.02,52,2010s,aggressive,True,vocal
